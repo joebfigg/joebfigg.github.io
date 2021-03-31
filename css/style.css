@@ -10,9 +10,25 @@ Green
 
 /* Change Navebar on Scroll */
 
+@media (min-width: 992px) { 
+    
 .navbar { background-color: rgb(121, 61, 181,0); -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
        
 .scrolled { background-color:  #7c3670; -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear; }
+
+
+
+}
+
+@media (max-width: 992px) { 
+    
+.navbar { background-color: rgb(255, 255, 255); -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
+       
+.scrolled { background-color:  #7c3670; -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear; }
+
+
+
+}
 
 
 /* mastery bars */
