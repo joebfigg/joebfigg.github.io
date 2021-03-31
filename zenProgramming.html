@@ -1,0 +1,32 @@
+<style>
+  body {
+    height: 400vh;
+  }
+
+  .grow {
+    position: fixed;
+    top: 32px;
+    left: 32px;
+    height: 64px;
+    max-height: 4000px;
+    width: 100vw;
+    border: 4px solid;
+    border-radius: 4px;
+    transition: all 333ms linear;
+  }
+</style>
+
+
+<script>
+  const growingDiv = document.querySelector('.grow');
+    
+  window.addEventListener('scroll', () => {
+    console.log(window.scrollX)
+    growingDiv.style.height = `${64 + window.scrollY}px`;
+  });
+</script>
+
+
+<div class="grow">Scroll down</div>
+
+
