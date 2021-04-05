@@ -180,7 +180,7 @@ element4.classList.remove("subPurple3","subYellow3");
 
 $(function(){
 
-$("#drag").css({"position":"absolute","top":"100px","right":"100px","border":"1px solid #789","cursor":"move"})
+$("#drag").css({"position":"absolute","top":"100px","right":"100px","cursor":"move"})
   
 	var dragging = false;
 	var iX, iY;
