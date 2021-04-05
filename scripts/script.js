@@ -56,6 +56,58 @@ function heroSelector() {
     
 }
 
+function deckSelector() {
+    
+    var grid = document.getElementById("gridDeck");
+    var mosaic = document.getElementById("mosaicDeck");
+    
+    if (grid.classList.contains("d-none")) {
+      grid.classList.remove("d-none");
+      grid.classList.add("d-block");
+      
+      mosaic.classList.remove("d-block");
+      mosaic.classList.add("d-none");
+        
+    } else {
+      grid.classList.remove("d-block");
+      grid.classList.add("d-none");
+      
+      mosaic.classList.remove("d-none");
+      mosaic.classList.add("d-block");
+    }
+    
+}
+
+
+function gridSelector(source) {
+
+  var items = document.getElementsByClassName("cardCol");
+    
+  if (source.id == "34"){
+      for (var i=0; i < items.length; i++) {
+        items[i].classList.remove("col-sm-6");
+        items[i].classList.remove("col-sm-12");
+        items[i].classList.add("col-sm-3");
+      }      
+  } else if (source.id == "26") {
+      for (var i=0; i < items.length; i++) {
+        items[i].classList.remove("col-sm-3");
+        items[i].classList.remove("col-sm-12");
+        items[i].classList.add("col-sm-6");
+      }  
+  } else {
+      for (var i=0; i < items.length; i++) {
+        items[i].classList.remove("col-sm-6");
+        items[i].classList.remove("col-sm-3");
+        items[i].classList.add("col-sm-12");
+      }  
+  }   
+    
+}
+
+
+
+
 
 
 function yellowTheme() {
