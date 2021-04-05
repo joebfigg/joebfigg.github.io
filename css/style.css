@@ -213,3 +213,83 @@ a.icoFacebook:hover {
   background-color: #7c3670;
   cursor: pointer;
 }
+
+
+
+/* footer */
+
+.footerHeader{
+    background-color: #3a2246;
+}
+
+.footerBody{
+        background-color: #c5c3a3;
+
+}
+
+
+
+/* wix styles */
+
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+
+/* red theme */
+.headRed{
+    background: #8C0000; 
+}
+
+.subRed1{
+    background-color: #BD2000;
+}
+
+.subRed2{
+    background-color: #FA1E0E;
+}
+
+.subRed3{
+    background-color: #FFBE0F;
+}
+
+
+
+/* yellow theme */
+.headYellow{
+    background: #f4e04d; 
+}
+
+.subYellow1{
+    background-color: #f2ed6f;
+}
+
+.subYellow2{
+    background-color: #cee397;
+}
+
+.subYellow3{
+    background-color: #8db1ab;
+}
+
+/* purple theme */
+.headPurple{
+    background: #440a67; 
+}
+
+.subPurple1{
+    background-color: #93329e;
+}
+
+.subPurple2{
+    background-color: #b4aee8;
+}
+
+.subPurple3{
+    background-color: #ffe3fe;
+}
