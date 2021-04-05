@@ -34,19 +34,29 @@ $(function() {
 });
 
 
-function displaySwitch() {
-
-var element = document.getElementById("wix1");
-
-    if (element.classList.contains("d-none")) {
-      element.classList.add("d-block");
-      element.classList.remove("d-none");
+function heroSelector() {
+    
+    var wix = document.getElementById("wix1");
+    var jum = document.getElementById("jumbo");
+    
+    if (wix.classList.contains("d-none")) {
+      wix.classList.remove("d-none");
+      wix.classList.add("d-block");
+      
+      jum.classList.remove("d-block");
+      jum.classList.add("d-none");
+        
     } else {
-      element.classList.add("d-none");
-      element.classList.remove("d-block");
+      wix.classList.remove("d-block");
+      wix.classList.add("d-none");
+      
+      jum.classList.remove("d-none");
+      jum.classList.add("d-block");
     }
     
 }
+
+
 
 function yellowTheme() {
 
