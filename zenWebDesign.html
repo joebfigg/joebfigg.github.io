@@ -75,7 +75,39 @@
 
 <!-- styling buttons -->
 
-<div id="drag" class="container p-3" style="border-radius: 15px 50px; border-style: solid; border-width: medium; margin-top: 2em; margin-left: 1em; z-index: 1; background-color: slategrey; width: 30em; box-shadow: 0 27px 55px 0 rgba(0, 0, 0)">
+<div id="drag" class="d-none d-xl-block container p-3" style="border-radius: 15px 50px; border-style: solid; border-width: medium; margin-top: 2em; margin-left: 1em; z-index: 1; background-color: slategrey; width: 30em; box-shadow: 0 27px 55px 0 rgba(0, 0, 0)">
+ 
+     <div>
+     <h3>I'm Dragable, Try it!</h3>
+     <h4>Select a Theme</h4>
+      <div class="row">
+        <div  class="col-sm">
+          <a id="yellowStyleButton" onclick="yellowTheme()" style="background-color: yellow"  href="#">Yellow Theme</a>
+        </div>
+        <div class="col-sm">
+          <a id="purpleStyleButton" onclick="purpleTheme()" style="background-color: purple"  href="#">Purple Theme</a>
+        </div>
+        <div class="col-sm">
+          <a id="redStyleButton" onclick="redTheme()" style="background-color: red"  href="#">Red Theme</a>
+        </div>
+      </div>
+    </div>
+
+     <div>
+       <h4>Select a Hero Div</h4>
+        <a class="" role="button" onclick="heroSelector()" style="background-color: #7c3670; border-color: #7c3670">Switch Hero Divs</a>
+     </div>  
+
+     <div>
+       <h4>Select Card Deck Layout</h4>     
+        <a class="" role="button" onclick="deckSelector()" style="background-color: #7c3670; border-color: #7c3670">Switch Grid orMosaic</a> 
+        <a id="34" class="" role="button" onclick="gridSelector(this)" style="background-color: #7c3670; border-color: #7c3670">Grid: 3x4</a> 
+        <a id="26"class="" role="button" onclick="gridSelector(this)" style="background-color: #7c3670; border-color: #7c3670">Grid: 2x6</a>
+        <a id="112" class="" role="button" onclick="gridSelector(this)" style="background-color: #7c3670; border-color: #7c3670">Grid: 1x12</a>
+    </div>   
+</div>
+
+<div id="" class="d-xl-none container p-3" style="border-radius: 15px 50px; border-style: solid; border-width: medium; margin-top: 2em; margin-left: 1em; z-index: 1; background-color: slategrey; width: 30em; box-shadow: 0 27px 55px 0 rgba(0, 0, 0)">
  
      <div>
      <h3>I'm Dragable, Try it!</h3>
